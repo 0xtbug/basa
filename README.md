@@ -1,6 +1,8 @@
 # Basa (ᮘᮞ)
 > _In Sundanese, Basa (ᮘᮞ) means “language.”_
 
+<img src="https://github.com/user-attachments/assets/b4aad845-197b-40fa-bb2a-cf989289dea4" width="800px" />
+
 AI-powered Markdown translator using Google Gemini. Basa translates `.md`/`.mdx` (and common markdown variants) while preserving formatting, code blocks, and links. It can process single or multiple files and writes outputs with a clear naming pattern.
 
 ## Install
