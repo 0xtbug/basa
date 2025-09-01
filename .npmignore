@@ -1,0 +1,45 @@
+# Source files
+src/
+tsconfig.json
+*.ts
+!*.d.ts
+
+# Development files
+.git/
+.gitignore
+.vscode/
+*.log
+node_modules/
+
+# Test files
+test/
+tests/
+*.test.ts
+*.test.js
+
+# Example files
+examples/
+sample.*
+database-design.*
+
+# Build artifacts
+.tsbuildinfo
+
+# Documentation (keep README.md)
+docs/
+*.md
+!README.md
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

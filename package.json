@@ -1,0 +1,67 @@
+{
+  "name": "basa",
+  "version": "1.0.0",
+  "description": "🌍 Basa - AI-powered Markdown translator using Google Gemini",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "bin": {
+    "basa": "./dist/cli.js"
+  },
+  "keywords": [
+    "basa",
+    "translate",
+    "translation",
+    "mdx",
+    "markdown",
+    "gemini",
+    "ai",
+    "typescript",
+    "i18n",
+    "localization",
+    "cli"
+  ],
+  "author": "0xtbug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xtbug/basa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xtbug/basa/issues"
+  },
+  "homepage": "https://github.com/0xtbug/basa#readme",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "keytar": "^7.9.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/yargs": "^17.0.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
