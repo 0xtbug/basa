@@ -40,6 +40,7 @@ export class CLI {
 
   private async setupYargs() {
     return yargs(hideBin(process.argv))
+      .scriptName('basa')
       .usage('Usage: $0 [files...] -l <languages> -k <api-key> [options]')
       .option('files', {
         alias: 'f',
