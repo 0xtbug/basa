@@ -1,5 +1,5 @@
 {
-  "name": "basa",
+  "name": "@0xtbug/basa",
   "version": "1.0.0",
   "description": "🌍 Basa - AI-powered Markdown translator using Google Gemini",
   "main": "dist/index.js",

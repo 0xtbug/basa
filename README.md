@@ -4,7 +4,7 @@
 AI-powered Markdown translator using Google Gemini. Basa translates `.md`/`.mdx` (and common markdown variants) while preserving formatting, code blocks, and links. It can process single or multiple files and writes outputs with a clear naming pattern.
 
 ## Install
-- Global: `npm i -g basa`
+- Global: `npm i -g @0xtbug/basa`
 - Node: `>= 16`
 
 ## Usage
